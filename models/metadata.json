@@ -1,0 +1,14 @@
+{
+    "dataset_name": "Curated High-Quality News Benchmark Dataset (Fallback)",
+    "is_fallback": true,
+    "total_samples": 50,
+    "train_samples": 40,
+    "test_samples": 10,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "model_type": "Logistic Regression (L-BFGS solver)",
+    "features": "TF-IDF (Unigrams + Bigrams, Sublinear TF)",
+    "vocabulary_size": 1861
+}
