@@ -1,14 +1,14 @@
 {
-    "dataset_name": "Curated High-Quality News Benchmark Dataset (Fallback)",
-    "is_fallback": true,
-    "total_samples": 50,
-    "train_samples": 40,
-    "test_samples": 10,
-    "accuracy": 1.0,
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1": 1.0,
+    "dataset_name": "Kaggle Fake and Real News Dataset (Full)",
+    "is_fallback": false,
+    "total_samples": 44889,
+    "train_samples": 35911,
+    "test_samples": 8978,
+    "accuracy": 0.9922,
+    "precision": 0.9898,
+    "recall": 0.9939,
+    "f1": 0.9918,
     "model_type": "Logistic Regression (L-BFGS solver)",
     "features": "TF-IDF (Unigrams + Bigrams, Sublinear TF)",
-    "vocabulary_size": 1861
+    "vocabulary_size": 50000
 }
